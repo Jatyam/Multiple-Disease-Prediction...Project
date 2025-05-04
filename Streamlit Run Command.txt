@@ -1,0 +1,14 @@
+streamlit run "C:\Users\sohan\Downloads\Multiple Disease Prediction System\Multiple Disease Prediction.py"
+
+
+
+
+Kaggle data description for attribute understanding such as cp - chest pain,
+
+liver and Kidney disease prediction model
+
+
+
+Suggestons:-
+
+Real time disease prediction
