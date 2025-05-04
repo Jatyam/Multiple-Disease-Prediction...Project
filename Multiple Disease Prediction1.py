@@ -24,13 +24,13 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction System/Saved Models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction System/Saved Models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction System/Saved Models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/parkinsons_model.sav','rb'))
 
-lung_cancer_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction System/Saved Models/lung_cancer_model.sav','rb'))
+lung_cancer_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/lung_cancer_model.sav','rb'))
 
 
 # sidebar for navigation
@@ -528,7 +528,7 @@ if (selected == 'Lung Cancer Prediction'):
          PEER_PRESSURE = st.text_input('PEER_PRESSURE')
          
      with col1:
-         CHRONIC_DISEASE = st.text_input('CHRONIC DISEASE')    
+         CHRONIC_DISEASE = st.text_input('CHRONIC_DISEASE')    
               
      with col2:
          FATIGUE = st.text_input('FATIGUE')   
@@ -563,10 +563,10 @@ if (selected == 'Lung Cancer Prediction'):
       
      if st.button('Lung Cancer Test Result'):
          
-         # user_input = [
-         #     GENDER, AGE, SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC DISEASE, FATIGUE, ALLERGY,
-         #     WHEEZING, ALCOHOL_CONSUMING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN
-         #     ]
+         user_input = [
+             GENDER, AGE, SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC_DISEASE, FATIGUE, ALLERGY,
+             WHEEZING, ALCOHOL_CONSUMING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN
+             ]
         
           
          user_input = [float(x) for x in user_input]
