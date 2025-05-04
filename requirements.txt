@@ -1,0 +1,8 @@
+streamlit-option-menu
+
+streamlit
+streamlit-option-menu
+pandas
+scikit-learn
+
+
