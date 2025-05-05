@@ -24,13 +24,13 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('Saved Models/diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('Saved Models/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('Saved Models/parkinsons_model.sav','rb'))
 
-lung_cancer_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/Saved Models/lung_cancer_model.sav','rb'))
+lung_cancer_model = pickle.load(open('Saved Models/lung_cancer_model.sav','rb'))
 
 
 # sidebar for navigation

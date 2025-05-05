@@ -23,7 +23,10 @@ diabetes_model = pickle.load(open('Saved Models/diabetes_model.sav','rb'))
 heart_disease_model = pickle.load(open('Saved Models/heart_disease_model.sav','rb'))
 parkinsons_model = pickle.load(open('Saved Models/parkinsons_model.sav','rb'))
 lung_cancer_model = pickle.load(open('Saved Models/lung_cancer_model.sav','rb'))
+
 #C:/Users/sohan/Downloads/Multiple Disease Prediction...Project/
+
+
 # Sidebar for navigation
 with st.sidebar:
     selected = option_menu('Multiple Desease Prediction System',
