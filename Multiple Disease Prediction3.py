@@ -75,7 +75,7 @@ lung_cancer_model = pickle.load(open('C:/Users/sohan/Downloads/Multiple Disease 
 # 5) Sidebar for navigation
 # ------------------------------------------------------------------------------
 with st.sidebar:
-    selected = option_menu('Multiple Desease Prediction System',
+    selected = option_menu('Multiple Disease Prediction System',
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
                             'Parkinsons Prediction',
